@@ -20,31 +20,37 @@
 
 <h1>How HTTP Works</h1>
 
-<p>HTTP is a client-server protocol where a browser sends requests and a server responds with data.</p>
+<section>
+<p>
+HTTP is a client-server protocol where a browser (client) sends a request to a web server, 
+and the server responds with the requested resource such as HTML, images, or data.
+</p>
 
-<h2>Main Features</h2>
+<p>
+Each request includes methods like GET or POST, headers with metadata, and sometimes a body. 
+The server responds with a status code (like 200 OK or 404 Not Found).
+</p>
+</section>
+
+<section>
+<h2>Important Features</h2>
 <ul>
 <li>Stateless communication</li>
-<li>Uses methods like GET and POST</li>
-<li>Transfers web content</li>
+<li>Request/response structure</li>
+<li>Supports multiple resources per page</li>
 </ul>
+</section>
 
-<img src="https://via.placeholder.com/300" alt="HTTP diagram">
-
-<table border="1">
-<tr>
-<th>Method</th>
-<th>Purpose</th>
-</tr>
-<tr>
-<td>GET</td>
-<td>Request data</td>
-</tr>
-<tr>
-<td>POST</td>
-<td>Send data</td>
-</tr>
+<section>
+<h2>HTTP Methods</h2>
+<table>
+<tr><th>Method</th><th>Description</th></tr>
+<tr><td>GET</td><td>Retrieve data from server</td></tr>
+<tr><td>POST</td><td>Send data to server</td></tr>
+<tr><td>PUT</td><td>Update data</td></tr>
+<tr><td>DELETE</td><td>Remove data</td></tr>
 </table>
+</section>
 
 <footer><p>IT3203 Project</p></footer>
 
