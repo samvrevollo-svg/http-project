@@ -20,14 +20,37 @@
 
 <h1>Evolution of HTTP</h1>
 
+<section>
 <h2>HTTP/1.1</h2>
-<p>Used persistent connections but struggled with performance issues like blocking.</p>
+<p>
+HTTP/1.1 introduced persistent connections, allowing multiple requests over one connection. 
+However, it suffered from performance issues like head-of-line blocking, where one request could delay others.
+</p>
+</section>
 
+<section>
 <h2>HTTP/2</h2>
-<p>Introduced multiplexing and header compression to improve speed.</p>
+<p>
+HTTP/2 improved performance by introducing multiplexing, allowing multiple requests to be handled simultaneously. 
+It also introduced header compression to reduce redundancy and improve speed.
+</p>
+</section>
 
+<section>
 <h2>HTTP/3</h2>
-<p>Uses QUIC and improves performance on unstable networks.</p>
+<p>
+HTTP/3 uses QUIC, a modern protocol based on UDP. It improves performance on unstable networks and reduces latency. 
+Unlike previous versions, it avoids many blocking issues and enhances security.
+</p>
+</section>
+
+<section>
+<h2>Why This Matters</h2>
+<p>
+The evolution of HTTP shows how the web adapts to increasing demand. Modern websites require fast, secure, 
+and efficient communication, and newer HTTP versions are designed to meet those needs.
+</p>
+</section>
 
 <footer><p>IT3203 Project</p></footer>
 
