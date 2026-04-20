@@ -1,0 +1,134 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #e7b1a8; /* soft pink background */
+    color: #4b4b4b;
+    line-height: 1.6;
+}
+
+/* NAV BAR */
+nav {
+    background: #f4efe6;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #6b6b6b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #f97316;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4efe6;
+    border-radius: 25px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* MAIN SECTIONS */
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #f4efe6;
+    border-radius: 20px;
+}
+
+/* HEADINGS */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* LISTS */
+ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* BUTTONS */
+button {
+    margin: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    background: #f97316;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fb923c;
+}
+
+/* QUIZ */
+#quizForm section {
+    margin-bottom: 20px;
+}
+
+#quizForm p {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* RESULTS */
+#results {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    background: #f4efe6;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #f4efe6;
+    margin: 30px auto;
+    border-radius: 15px;
+    max-width: 900px;
+}
