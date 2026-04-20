@@ -4,7 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ACTIVE NAV LINK */
+nav ul li a.active {
+    color: #f97316;
+    font-weight: bold;
+    border-bottom: 2px solid #f97316;
+}
 
+/* IMAGE STYLE */
+img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 15px;
+}
 /* BODY */
 body {
     font-family: 'Poppins', sans-serif;
