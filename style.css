@@ -12,6 +12,14 @@ body {
     color: #4b4b4b;
     line-height: 1.6;
 }
+h1 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+nav ul li a {
+    font-family: 'Quicksand', sans-serif;
+}
 
 /* HEADINGS */
 h1, h2 {
