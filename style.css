@@ -63,16 +63,6 @@ section {
     border-radius: 20px;
 }
 
-/* HEADINGS */
-h1 {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 2.5rem;
-}
-
-h2 {
-    margin-bottom: 10px;
-}
 
 /* LISTS */
 ul {
