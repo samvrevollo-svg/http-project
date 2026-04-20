@@ -5,12 +5,17 @@
     box-sizing: border-box;
 }
 
-/* BODY */
+/* BODY FONT */
 body {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    background: #e7b1a8; /* soft pink background */
+    font-family: 'Poppins', sans-serif;
+    background: #e7b1a8;
     color: #4b4b4b;
     line-height: 1.6;
+}
+
+/* HEADINGS */
+h1, h2 {
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* NAV BAR */
@@ -35,7 +40,7 @@ nav ul li a {
     font-weight: 600;
 }
 
-nav ul li a:hover {
+nav ul li a: hover {
     color: #f97316;
 }
 
