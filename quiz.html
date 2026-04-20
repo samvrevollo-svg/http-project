@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="quiz.js"></script>
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="topic1.html">HTTP Basics</a></li>
+<li><a href="topic2.html">Evolution</a></li>
+<li><a href="concepts.html">Key Concepts</a></li>
+<li><a href="references.html">References</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="quiz.html">Quiz</a></li>
+</ul>
+</nav>
+
+<h1>Test Your Knowledge</h1>
+
+<form id="quizForm">
+
+<!-- Fill in blank -->
+<section>
+<p>1. HTTP stands for ______ Transfer Protocol.</p>
+<input type="text" id="q1">
+</section>
+
+<!-- Multiple choice -->
+<section>
+<p>2. Which method is used to retrieve data?</p>
+<input type="radio" name="q2" value="GET"> GET<br>
+<input type="radio" name="q2" value="POST"> POST<br>
+<input type="radio" name="q2" value="DELETE"> DELETE<br>
+</section>
+
+<section>
+<p>3. What does HTTP/2 improve?</p>
+<input type="radio" name="q3" value="speed"> Speed<br>
+<input type="radio" name="q3" value="design"> Design<br>
+<input type="radio" name="q3" value="color"> Color<br>
+</section>
+
+<section>
+<p>4. What protocol does HTTP/3 use?</p>
+<input type="radio" name="q4" value="TCP"> TCP<br>
+<input type="radio" name="q4" value="QUIC"> QUIC<br>
+<input type="radio" name="q4" value="FTP"> FTP<br>
+</section>
+
+<!-- Multi select -->
+<section>
+<p>5. Which are HTTP features? (Select all that apply)</p>
+<input type="checkbox" value="stateless" name="q5"> Stateless<br>
+<input type="checkbox" value="encrypted" name="q5"> Encrypted (HTTPS)<br>
+<input type="checkbox" value="cooking" name="q5"> Cooking<br>
+</section>
+
+<button type="button" onclick="gradeQuiz()">Submit</button>
+<button type="button" onclick="resetQuiz()">Reset</button>
+
+</form>
+
+<div id="results"></div>
+
+</body>
+</html>
