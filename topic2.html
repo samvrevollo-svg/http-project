@@ -24,12 +24,52 @@
 <h1>Evolution of HTTP</h1>
 
 <section>
-<p>HTTP has improved over time:</p>
+<h2>Why HTTP Needed to Evolve</h2>
+<p>
+As the internet grew, websites became more complex and required faster performance.
+Older versions of HTTP were not efficient enough to handle multiple requests quickly,
+which caused delays and slower loading times.
+</p>
+
+<h2>Versions of HTTP</h2>
+
 <ul>
-<li><strong>HTTP/1.1</strong> – basic communication</li>
-<li><strong>HTTP/2</strong> – faster with multiplexing</li>
-<li><strong>HTTP/3</strong> – uses QUIC for better speed</li>
+<li><strong>HTTP/1.1:</strong> Introduced persistent connections but still processed requests one at a time.</li>
+<li><strong>HTTP/2:</strong> Introduced multiplexing, allowing multiple requests simultaneously over one connection.</li>
+<li><strong>HTTP/3:</strong> Uses the QUIC protocol instead of TCP, improving speed and reducing latency.</li>
 </ul>
+
+<h2>Comparison Table</h2>
+
+<table border="1" style="width:100%; margin-top:15px;">
+<tr>
+<th>Version</th>
+<th>Key Feature</th>
+<th>Benefit</th>
+</tr>
+<tr>
+<td>HTTP/1.1</td>
+<td>Persistent connections</td>
+<td>Reduced connection overhead</td>
+</tr>
+<tr>
+<td>HTTP/2</td>
+<td>Multiplexing</td>
+<td>Faster loading of multiple resources</td>
+</tr>
+<tr>
+<td>HTTP/3</td>
+<td>QUIC protocol</td>
+<td>Lower latency and better reliability</td>
+</tr>
+</table>
+
+<h2>Impact on Modern Web</h2>
+<p>
+These improvements allow websites to load faster, reduce delays, and improve user experience.
+Modern applications rely heavily on HTTP/2 and HTTP/3 for performance and efficiency.
+</p>
+
 </section>
 
 </body>
