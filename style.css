@@ -180,3 +180,35 @@ footer {
         width: 100%;
     }
 }
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    section {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+}
