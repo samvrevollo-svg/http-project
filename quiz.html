@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quiz</title>
 <link rel="stylesheet" href="style.css">
 <script defer src="quiz.js"></script>
@@ -17,7 +17,7 @@
 <li><a href="concepts.html">Key Concepts</a></li>
 <li><a href="references.html">References</a></li>
 <li><a href="about.html">About</a></li>
-<li><a href="quiz.html">Quiz</a></li>
+<li><a href="quiz.html" class="active">Quiz</a></li>
 </ul>
 </nav>
 
@@ -25,13 +25,11 @@
 
 <form id="quizForm">
 
-<!-- Fill in blank -->
 <section>
 <p>1. HTTP stands for ______ Transfer Protocol.</p>
 <input type="text" id="q1">
 </section>
 
-<!-- Multiple choice -->
 <section>
 <p>2. Which method is used to retrieve data?</p>
 <input type="radio" name="q2" value="GET"> GET<br>
@@ -53,12 +51,10 @@
 <input type="radio" name="q4" value="FTP"> FTP<br>
 </section>
 
-<!-- Multi select -->
 <section>
-<p>5. Which are HTTP features? (Select all that apply)</p>
+<p>5. Which are HTTP features?</p>
 <input type="checkbox" value="stateless" name="q5"> Stateless<br>
-<input type="checkbox" value="encrypted" name="q5"> Encrypted (HTTPS)<br>
-<input type="checkbox" value="cooking" name="q5"> Cooking<br>
+<input type="checkbox" value="encrypted" name="q5"> Encrypted<br>
 </section>
 
 <button type="button" onclick="gradeQuiz()">Submit</button>
