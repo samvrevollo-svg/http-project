@@ -135,3 +135,48 @@ footer {
     margin: 30px auto;
     border-radius: 15px;
 }
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+    /* NAV STACK */
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    /* HEADER TEXT */
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    /* SECTIONS */
+    section {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    /* IMAGES */
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* BUTTONS */
+    button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* QUIZ INPUTS */
+    input[type="text"] {
+        width: 100%;
+    }
+}
